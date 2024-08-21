@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Droid+Arabic+Kufi&display=swap');
+
+body {
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+.stTextInput, .stTextArea, .stButton, .stHeader, .stMarkdown {
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
