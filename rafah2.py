@@ -21,7 +21,7 @@ df = pd.DataFrame(data)
 df['Travel Date'] = pd.to_datetime(df['Travel Date'])
 
 # Format the 'Travel Date' to display as "Day-Month-Year" (e.g., "21-Aug-2023")
-df['Travel Date'] = df['Travel Date'].dt.strftime('%d-%b-%Y')  # Short month name
+df['Travel Date'] = df['Travel Date'].dt.strftime('%A-%d-%b-%Y')  # Short month name
 
 # Streamlit app
 st.title('Passenger List for Rafah Crossing')
